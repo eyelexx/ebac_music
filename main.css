@@ -146,3 +146,45 @@ footer .container {
         gap: 0.5em;
     }
 }
+
+@media screen and (max-width: 640px) {
+    header .container {
+        padding: 0 2em;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .sobre {
+        display: block;
+        padding: 2em;
+    }
+
+    .sobre {
+        margin: 0;
+    }
+
+    .sobre img {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .produtos {
+        padding: 2em;
+    }
+
+    .produtos-grid {
+        grid-template-columns: 100%;
+    }
+
+    .produto {
+        width: 100%;
+        margin-bottom: 2em;
+        gap: 0.5em;
+    }
+
+    footer .container {
+        text-align: center;
+    }
+}
