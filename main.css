@@ -112,3 +112,34 @@ footer .container {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    header .container {
+        padding: 0 4em;
+    }
+    
+    .sobre {
+        display: block;
+        padding: 1em 4em;
+    }
+
+    .sobre img {
+        margin-bottom: 1em;
+    }
+
+    .produtos {
+        padding: 1em 4em;
+
+    }
+
+    .produtos-grid {
+        grid-template-columns: repeat(2, 50%);
+        justify-items: center;
+    }
+
+    .produto {
+        width: 250px;
+        padding: 1em;
+        gap: 0.5em;
+    }
+}
