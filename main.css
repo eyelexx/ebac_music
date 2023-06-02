@@ -124,7 +124,10 @@ footer .container {
     }
 
     .sobre img {
-        margin-bottom: 1em;
+        display: block;
+        margin: 0 auto 3em auto;
+        justify-self: center;
+        
     }
 
     .produtos {
